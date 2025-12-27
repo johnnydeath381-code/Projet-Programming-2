@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Lancer glino",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/glino.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/raylib/w64devkit/bin/gdb.exe",
+            "preLaunchTask": "build glino"
+        }
+    ]
+}
